@@ -1,0 +1,106 @@
+.main{
+    background-color: #5b5a5a;
+}
+.cardd {
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+.card .body {
+    color: #444;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.like-comment-share{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.single_post {
+    transition: all .4s ease;
+}
+
+.single_post .body {
+    padding: 30px;
+}
+
+.single_post .img-post {
+    position: relative;
+    overflow: hidden;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+.single_post .img-post > img {
+    max-width: 100%;
+}
+
+.single_post .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.single_post .actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.single_post .actions button:hover {
+    color: #007bff;
+}
+
+.single_post h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.single_post p.text-dark {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.right-box .card {
+    background: #fff;
+    border-radius: .55rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.right-box .header h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.right-box .header small {
+    font-size: 14px;
+    color: #777;
+}
+
+.right-box .body {
+    margin-top: 20px;
+}
+
+.right-box .input-group {
+    margin-bottom: 20px;
+}
+
+.right-box .form-control {
+    border-radius: .55rem;
+}
+
+.right-box .btn-primary {
+    border-radius: .55rem;
+}

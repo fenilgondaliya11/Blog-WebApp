@@ -1,0 +1,30 @@
+
+.blg{
+    background-color: black;
+    position: relative;
+}
+
+.blog-description-container {
+    margin-bottom: 20px; 
+}
+
+.blog-description-container .ql-container {
+    min-height: 200px; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+}
+
+.blog-description-container .ql-editor {
+    padding: 10px;
+    color: white;
+}
+
+
+.blog-description-container .ql-toolbar {
+    background-color: #f5f5f5;
+}
+
+.ql-container .ql-editor {
+    background-color: #f5f5f5;
+    min-height: 200px; 
+}

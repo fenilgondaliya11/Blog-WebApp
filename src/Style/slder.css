@@ -1,0 +1,100 @@
+.mid-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cerators {
+    color: #fff; 
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .sliders {
+    width: 100%;
+    margin-top: 2em;
+    margin-left: 75px;
+  }
+    
+/* Base Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; /* Added padding for small screens */
+}
+
+.mid-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.creators {
+  color: #fff; 
+  margin: 30px 0 0 90px; /* Adjusted shorthand margin */
+  text-align: left; /* Ensure text is left-aligned by default */
+}
+
+.sliders {
+  width: 100%;
+  margin-top: 2em;
+  margin-left: 75px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 100%; 
+  }
+
+  .creators {
+    margin-left: 60px; 
+  }
+
+  .sliders {
+    margin-left: 50px; 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .creators {
+    margin-left: 40px; 
+  }
+
+  .sliders {
+    margin-left: 30px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .creators {
+    margin-left: 20px; 
+    text-align: center; 
+  }
+
+  .sliders {
+    margin-left: 20px; 
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .creators {
+    margin-left: 10px;
+  }
+
+  .sliders {
+    margin-left: 10px;
+  }
+}
+
+
+  

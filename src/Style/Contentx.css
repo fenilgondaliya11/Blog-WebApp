@@ -1,0 +1,15 @@
+.textp{
+    text-align: justify;
+    float: inline-start;
+}
+.main-image{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .textp {
+      margin-left: 10px; 
+      margin-right: 10px; 
+    }
+  }
+  

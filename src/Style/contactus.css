@@ -1,0 +1,8 @@
+.mincontainerrr{
+    padding: 0px;
+    background-color: black;
+    min-width: 90vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}

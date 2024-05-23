@@ -1,0 +1,32 @@
+.all-users-container {
+    padding: 20px;
+    background-color: #343a40; 
+    color: white; 
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+
+.user-table th {
+    background-color: #343a40;
+    color: white;
+}
+
+
+
+.user-table tbody tr:hover {
+    background-color: #be4848;
+}
+
+.user-table tbody tr:nth-child(even):hover {
+    background-color: #d55959;
+}
